@@ -165,7 +165,7 @@ g.namespace_manager.bind('owl', Namespace("http://www.w3.org/2002/07/owl#"), ove
 g.namespace_manager.bind('rdfs', Namespace("http://www.w3.org/2000/01/rdf-schema#"), override=False)
 g.namespace_manager.bind('district', Namespace("http://www.consumo_madrid.com/resource/District/"), override=False)
 g.namespace_manager.bind('neighborhood', Namespace("http://www.consumo_madrid.com/resource/Neighborhood/"), override=False)
-g.parse("output.nt", format="ttl")
+g.parse("output-with-links.ttl", format="ttl")
 our = Namespace("http://www.consumo_madrid.com/ontology#")
 rr = Namespace ("http://www.w3.org/ns/r2rml#")
 rdf = Namespace ("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")

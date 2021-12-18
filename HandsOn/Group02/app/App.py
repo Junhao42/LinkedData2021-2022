@@ -269,7 +269,7 @@ def App():
 
             found = dict(); valores = list(); consumo = list()
             # Como en nuestro archivo ttl aprarecen de forma ordenada el tipo de energía y debajo el consumo, podemos obtenerlas por separado y ordenarlas respecto sus índices
-            # Guardamos en un diccionario los tipos de energía como claves y el consumo como sus datos
+            # Guardamos en un diccionario los tipos de energía como claves y el consumo como sus valores
 
             for r in g.query(q4_1_1):
                 valores.append(str(r[0]))
